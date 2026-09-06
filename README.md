@@ -43,7 +43,7 @@ Key metrics calculated include:
 - Trend analysis
 
 ## Dashboard
-![UK Inflation Dashboard](visualizations/UK_Inflation_Dashboard.png)
+![UK Inflation Dashboard](visualisations/UK_Inflation_Dashboard.png)
 
 
 ## Key Findings
