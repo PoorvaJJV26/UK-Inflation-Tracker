@@ -38,7 +38,7 @@ The analysis will include:
 
 ## Key Findings
 
-To be completed after the data analysis.
+The practice dataset shows a substantial increase in UK inflation during 2022, followed by a decline in 2023 and 2024.
 
 ## Conclusion
 
