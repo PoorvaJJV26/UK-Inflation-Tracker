@@ -2,44 +2,70 @@
 
 ## Project Overview
 
-This beginner-friendly project explores changes in the UK inflation rate over time.
+This project analyses the annual UK Consumer Price Index (CPI) inflation rate from 2015 to 2024.
 
-## Research Question
+The objective is to identify major inflation trends, periods of significant increases and declines, and key changes in the UK inflation rate over the period.
 
-How has the UK inflation rate changed between 2015 and 2024?
+## Research Questions
 
-## Objective
+- How did UK CPI inflation change between 2015 and 2024?
+- When did inflation reach its highest level?
+- What was the lowest inflation rate during the period?
+- How did inflation change following the 2022 peak?
 
-The objective is to:
+## Data
 
-- Examine changes in UK inflation over time
-- Identify periods of particularly high inflation
-- Visualise the overall trend
+The dataset is based on UK Consumer Price Index (CPI) inflation data published by the Office for National Statistics (ONS).
 
-## Dataset
+The raw dataset is stored in:
 
-The current dataset is a small practice dataset created for learning GitHub and data analysis workflows.
+`data/ONS_CPI_D7G7_Raw.csv`
 
-## Tools
+## Tools Used
 
 - Microsoft Excel
-- Visual Studio Code
+- Pivot Tables
+- Excel formulas
+- Data visualisation
 - GitHub
 - GitHub Desktop
 
 ## Analysis
 
-The analysis will include:
+The analysis was conducted using Microsoft Excel.
 
-1. Data inspection
-2. Descriptive analysis
-3. Trend visualisation
-4. Identification of major changes in inflation
+Key metrics calculated include:
+
+- Average inflation rate
+- Peak inflation rate
+- Lowest inflation rate
+- Annual changes in inflation
+- Trend analysis
+
+## Dashboard
+
+![UK Inflation Dashboard](visualizations/UK_Inflation_Dashboard.png)
 
 ## Key Findings
 
-The practice dataset shows a substantial increase in UK inflation during 2022, followed by a decline in 2023 and 2024.
+- The highest inflation rate during the period occurred in 2022.
+- Inflation subsequently declined after the 2022 peak.
+- The inflation rate decreased by approximately 6.6 percentage points between 2022 and 2024.
+- The period demonstrates substantial variation in UK inflation, particularly during the 2021–2022 period.
 
-## Conclusion
+## Project Structure
 
-To be completed after the analysis.
+```text
+UK-Inflation-Tracker/
+│
+├── data/
+│   └── ONS_CPI_D7G7_Raw.csv
+│
+├── analysis/
+│   └── UK_Inflation_Analysis.xlsx
+│
+├── visualizations/
+│   └── UK_Inflation_Dashboard.png
+│
+├── README.md
+└── .gitattributes
